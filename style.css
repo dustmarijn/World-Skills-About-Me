@@ -2,7 +2,25 @@ body{
     background-color: mintcream !important;
 }
 
+.footer{
+    background-color: mintcream !important;
+}
+
 i {
     color: black;
     font-size: 30px;
+}
+
+.profile-picture{
+    border-radius: 5%;
+    height: 70vh;
+    width: 30vw;
+    object-fit: cover;
+    object-position: 45% 10%; /* try 20px 10px */ 
+    object-fit: cover;    
+}
+
+.card-header{
+    font-weight: bold;
+    font-size: larger;
 }
